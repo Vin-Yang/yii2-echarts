@@ -1,0 +1,22 @@
+{
+    "name": "vin-yang/yii2-echarts",
+    "description": "baidu echarts for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["echarts","yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "vin-yang",
+            "email": "yangwenpeng1314521@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/echarts": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vin\\echarts\\": ""
+        }
+    }
+}
